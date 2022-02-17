@@ -3,6 +3,7 @@ import './App.css';
 import GeneratePlaylist from './Components/GeneratePlaylist/GeneratePlaylist';
 import Homepage from './Components/Homepage/Homepage';
 import About from './Components/About/About';
+import Articles from './Components/Articles/Articles';
 import Success from './Components/Confirmations/Success/Success';
 import Error from './Components/Confirmations/Error/Error';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
               <Route path='/frontToken' element={<FrontToken/>}/>
               <Route path='/playlist-generated' element={<Success/>}/>
               <Route path='/error' element={<Error/>}/>
+              <Route path='/articles/*' element={<Articles/>}/>
           </Routes>
         </div>
     </Router>
