@@ -62,7 +62,7 @@ function Navbar() {
         <div id="menu" className={!isActive ? "menu-active" : null}>
             <a href="https://mellow-dy.tinker.ovh/oauth">Generate a playlist</a>
             <NavLink to='/about'>About us</NavLink>
-            <NavLink to='/articles'>News</NavLink>    
+            <NavLink to='/articles/1'>News</NavLink>    
             <img src={isDark ? moon : sun} alt="A moon icon" className='desktop-moon' onClick={swapLightDark} />
         </div>
 
