@@ -1,4 +1,4 @@
-function Article9() {
+function Article10() {
     return (
       <div className="article">
           <h1></h1>
@@ -7,4 +7,4 @@ function Article9() {
     );
   }
   
-  export default Article9;
+  export default Article10;

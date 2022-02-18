@@ -11,6 +11,8 @@ import Article6 from './Subcomponents/Article6';
 import Article7 from './Subcomponents/Article7';
 import Article8 from './Subcomponents/Article8';
 import Article9 from './Subcomponents/Article9';
+import Article10 from './Subcomponents/Article10';
+
 
 
 function Articles() {
@@ -29,6 +31,7 @@ function Articles() {
                 <NavLink to='/articles/7'>7</NavLink>
                 <NavLink to='/articles/8'>8</NavLink>
                 <NavLink to='/articles/9'>9</NavLink>
+                <NavLink to='/articles/10'>10</NavLink>
             </div>
 
             <Routes>
@@ -41,6 +44,7 @@ function Articles() {
                 <Route path='/7' element={<Article7/>}/>
                 <Route path='/8' element={<Article8/>}/>
                 <Route path='/9' element={<Article9/>}/>
+                <Route path='/10' element={<Article10/>}/>
             </Routes>
           
         </div>
