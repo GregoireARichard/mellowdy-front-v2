@@ -7,7 +7,7 @@ function FrontToken(){
     const frontToken = queryParam.get('token')
     localStorage.setItem('FrontToken', frontToken == null ? "error" : frontToken) 
     window.location.replace('https://mellowdy.fr/generate-playlist')
-    const route = 'https://mellow-dy.tinker.ovh/'
+    const route = 'https://api.mellowdy.fr/'
     axios({ method: 'post', url: route, headers: { Authorization: `Bearer ${window.localStorage.getItem('FrontToken')}` } })
 
     return(

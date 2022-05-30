@@ -25,7 +25,7 @@ function GeneratePlaylist() {
 
   let submitValues = ()=>{
     if(artist !== '' && track !== ''){
-      const route = 'https://mellow-dy.tinker.ovh/'
+      const route = 'https://api.mellowdy.fr/'
       
     axios({
           method: 'post',
