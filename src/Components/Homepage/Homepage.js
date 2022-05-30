@@ -8,7 +8,7 @@ function Homepage() {
       <div  className="maintext">
           <h2>Find the <span>playlist</span><br/>that suits you.</h2>
           <h3>Let the music take you away</h3>
-          <a href="https://mellow-dy.tinker.ovh/oauth" className="button">Get started</a>
+          <a href="https://api.mellowdy.fr/oauth" className="button">Get started</a>
       </div>
       
       <BackgroundThree className='sossur'/>
